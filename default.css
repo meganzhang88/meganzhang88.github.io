@@ -1,0 +1,163 @@
+.mediaList {
+    margin: 20px 0 0;
+    padding:0
+}
+
+.mediaIcons {
+    display: inline-block;
+    margin-right:15px
+}
+
+.mediaLinks {
+    color: #787a82;
+}
+
+.mediaLinks:hover {
+    color:#3997dc
+}
+
+.headerWrapper {
+    display: flex;
+    margin-bottom:100px
+}
+
+.profilePicture {
+    border-radius: 50%;
+    overflow: hidden;
+    width:150px
+}
+
+.profileHeader {
+    margin:10px 0 0 50px
+}
+
+.profileHeader h1 {
+    color: #1f2933;
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin:0
+}
+
+.profileHeader h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin:0 0 30px
+}
+
+.outerWrapper {
+    max-width: 1200px;
+    padding: 100px;
+    position: relative;
+    width:100%
+}
+
+.blueBlob {
+    position: fixed;
+    top: -150px;
+    right: -700px;
+    z-index:-1
+}
+
+.blueBlob svg {
+    width: 1300px;
+    height: 1300px;
+    opacity:.5
+}
+
+.greyBlob {
+    position: fixed;
+    top: -250px;
+    right: -750px;
+    z-index:-1
+}
+
+.greyBlob svg {
+    width: 1500px;
+    opacity: .1;
+    height:1500px
+}
+
+
+h1 {
+    font-size: 2em;
+    margin:.67em 0
+}
+
+*, :after, :before {
+    box-sizing:inherit
+}
+
+html {
+    background: #fff;
+    color: #52606d;
+    font-size: 15px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    box-sizing:border-box
+}
+
+body {
+    font-family: Heebo, sans-serif;
+    font-size: 1em;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+p {
+    color: #3b3942;
+    font-size: 18px;
+    line-height: 1.5;
+    margin:0 0 30px
+}
+
+.websiteWrapper {
+    margin-bottom:30px
+}
+
+.websiteLink {
+    border-bottom: 1px solid #3997dc;
+    color: #32404b;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-decoration:none
+}
+
+.websiteLink:hover {
+    color:#3997dc
+}
+
+.skillsTitle {
+    color: #32404b;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom:10px
+}
+
+.websiteDescription {
+    font-size:16px
+}
+
+.sectionWrapper {
+    display: flex;
+    margin-bottom:50px
+}
+
+.sectionLeft {
+    width:300px
+}
+
+.sectionRight {
+    flex: 1 1;
+}
+
+.sectionTitle {
+    color: #787a82;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    letter-spacing: 3px;
+}
