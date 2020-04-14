@@ -112,7 +112,7 @@ p {
 }
 
 .websiteWrapper {
-    margin-bottom:30px
+    margin-bottom:10px
 }
 
 .websiteLink {
@@ -121,7 +121,7 @@ p {
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-decoration:none
 }
 
@@ -138,7 +138,12 @@ p {
 }
 
 .websiteDescription {
-    font-size:16px
+    font-size:18px
+}
+
+.positionDescription {
+    color: #32404b;
+    font-size: 16px
 }
 
 .sectionWrapper {
